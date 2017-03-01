@@ -1,0 +1,142 @@
+/*header*/
+html {
+  background:#DBD8D3;
+}
+
+#header, #header a {
+  text-align:center;
+  text-decoration:none;
+  font-size:35px;
+  font-variant: small-caps;
+  font-weight:bold;
+  color:#A32900;
+}
+
+/* nav */
+#nav, #nav a {
+
+}
+
+#nav ul{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+#nav li{
+  display:inline;
+  padding: 5px 4px;
+}
+#nav a, #nav a:visited{
+  font-family:Chunkfive;
+  font-size:30px;
+  text-decoration: none;
+  color:#333;
+  padding:5px 5px 0px 5px;
+}
+#nav a:hover, #nav a:focus, #nav a:active{
+    border-radius:5px;
+    background: -webkit-linear-gradient(top, #cccccc,#dfcccc);
+    background: -o-linear-gradient(bottom, #cccccc,#dfcccc);
+    background: -moz-linear-gradient(bottom, #cccccc,#dfcccc);
+    background: -linear-gradient(to bottom, #cccccc,#dfcccc);
+}
+/* content container */
+#meterStats {
+
+}
+
+#meterContent {
+  margin-top:10px;
+  max-width: 900px;
+  margin:auto;
+}
+
+/* customer info */
+#customer {
+
+}
+
+/* utility data */
+#utilityData {
+  margin-top:20px;
+}
+
+/* sdr info */
+#sdrData {
+  margin-top:20px;
+}
+
+/*table style*/
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  /*width:auto;*/
+  display: table-cell;
+  padding: 5px;
+}
+.cell a {
+  text-decoration: none;
+}
+
+/* red on increase; green decrease */
+.increase {
+  color: red;
+}
+.decrease {
+  color: green;
+}
+.noChange {
+  color: black;
+}
+
+/* general use */
+.bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* 400px screen */
+@media screen and (min-width: 400px) {
+  #head a {
+      font-size: 40px;
+  }
+}
+
+/* 600px screen */
+@media screen and (min-width: 600px) {
+  #head a {
+      font-size: 45px;
+  }
+}
+
+/* 750px screen */
+@media screen and (min-width: 750px) {
+  #head a {
+      font-size: 50px;
+  }
+}
+
+/* 825px screen */
+@media screen and (min-width: 825px) {
+  #head a {
+      font-size: 55px;
+  }
+}
+/* 920px screen */
+@media screen and (min-width: 920px) {
+
+}
+
+/* font import */
+@font-face{
+    font-family: Chunkfive;
+    src:url(Chunkfive.otf);
+}
